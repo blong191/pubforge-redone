@@ -1,3 +1,41 @@
-*{
+* {
   box-sizing: border-box;
+
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: #363535;
+}
+body{
+  background: #f7bf09;
+  margin: 0;
+}
+header
+
+@media (min-width: 690px) {
+  .logo {
+    width: 200px;
+    height: 40px;
+    margin-left: 40px;
+  }
+  nav{
+    height: 6rem;
+    align-items: center;
+  }
+  nav ul {
+    display: flex;
+  }
+
+  li {
+    list-style-type: none;
+    margin-left: 40px;
+  }
+ul:last-child{
+  margin-right:40px;
+}
+  li a {
+    color: #f7bf09;
+    text-decoration: none;
+  }
 }
