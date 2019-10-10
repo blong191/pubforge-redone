@@ -1,6 +1,10 @@
+@font-face {
+  font-family:'Economica';
+  src:url(https://fonts.googleapis.com/css?family=Economica:400,700,700i,400i|Heebo:500,400,300,700,800);
+}
 * {
   box-sizing: border-box;
-  font-family: arial;
+  font-family: Economica , arial;
 }
 nav {
   display: flex;
@@ -66,12 +70,11 @@ form{
   background-size: cover;
   align-items: center;
   color: white;
+  padding-bottom: 50px;
 }
 form h2{
-  align-self: center;
   color: #f7bf09;
 }
-
 .name{
   display:flex;
 }
@@ -79,17 +82,82 @@ form h2{
   display: flex;
   flex-direction: column;
   margin-right: 5%;
-  width:100%
-
+  width:100%;
+}
+.placehold{
+  color:transparent;
 }
 .last{
   display: flex;
   flex-direction: column;
+  width: 100%
 }
 .first input{
   height: 40px;
+  border-radius: 3px;
+}
+.last input{
+  height: 40px;
+  border-radius: 3px;
+}
+.first label{
+  margin-top: 10px;
+  font-size: 11px;
+}
+.last label{
+  margin-top: 10px;
+  font-size: 11px;
+}
+.first :first-child{
+  font-size: 20px;
+}
+.last :first-child{
+  font-size: 20px;
+}
+.name{
+  width: 60%;
 }
 
+.email{
+  display:flex;
+  flex-direction: column;
+  width: 60%;
+  margin-top: 30px;
+}
+.email input{
+  height: 40px;
+  border-radius: 3px;
+}
+.email :last-child{
+  background: transparent;
+  color: white;
+  font-size: 15px;
+  font-weight: lighter;
+  height: 45px;
+  width: 150px;
+  margin-top: 30px;
+  letter-spacing:.25em;
+  margin-bottom: 70px;
+  border-radius:0;
+  border: solid 2px white;
+}
+footer{
+  background-color: #363535;
+  padding-top:50px;
+  color:white;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .button{
+  color:black;
+  text-decoration: none;
+  letter-spacing: .25em;
+}
+footer .media a img{
+  height: 20px;
+
+}
 @media all and (min-width: 690px) {
   .container{
     padding-right: 13%;
@@ -135,6 +203,5 @@ ul:last-child{
   }
   form h2{
     font-size: 70px;
-
   }
 }
