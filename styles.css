@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-
+  font-family: arial;
 }
 nav {
   display: flex;
@@ -11,22 +11,103 @@ body{
   background: #f7bf09;
   margin: 0;
 }
-header
+header{
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5c8a7612a56827db3c92a75b/1554486845511-4EVK14CWOJJ67V549THA/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/BW-07154.jpg?format=2500w);
+background-repeat: no-repeat;
+background-size: cover;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
-@media (min-width: 690px) {
+}
+.button a{
+  color: black;
+  text-decoration: none;
+}
+.graphic{
+position: relative;
+}
+.graphic a img{
+width:50%;
+}
+li a{
+  color: #f7bf09;
+  text-decoration: none;
+}
+.button{
+  background:#f7bf09;
+  height: 50px;
+  width: 200px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing:.25em;
+}
+.buttons{
+  background:#f7bf09;
+  height: 25px;
+  width: 100px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px black;
+}
+.buttons a{
+  color: black;
+  text-decoration: none;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5c8a7612a56827db3c92a75b/1554488758907-PL0MI0H1P099LCI61LSK/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/BW-07156.jpg?format=2500w);
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  color: white;
+}
+form h2{
+  align-self: center;
+  color: #f7bf09;
+}
+
+.name{
+  display:flex;
+}
+.first{
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+  width:100%
+
+}
+.last{
+  display: flex;
+  flex-direction: column;
+}
+.first input{
+  height: 40px;
+}
+
+@media all and (min-width: 690px) {
+  .container{
+    padding-right: 13%;
+    padding-left: 13%;
+  }
   .logo {
     width: 200px;
     height: 40px;
     margin-left: 40px;
   }
-  nav{
+  .topbar{
     height: 6rem;
     align-items: center;
+    margin: 0;
   }
   nav ul {
     display: flex;
   }
-
   li {
     list-style-type: none;
     margin-left: 40px;
@@ -34,8 +115,26 @@ header
 ul:last-child{
   margin-right:40px;
 }
-  li a {
-    color: #f7bf09;
-    text-decoration: none;
+  header{
+    height: 600px;
+  }
+  header h1{
+    font-size: 1.75rem;
+    font-weight: normal;
+    color:#f7bf09;
+    letter-spacing:.25em;
+    font-family: Economica arial;
+  }
+  header h2{
+    font-size: 4rem;
+    font-weight: 400;
+    color:#f7bf09;
+  }
+  .container{
+    display: flex;
+  }
+  form h2{
+    font-size: 70px;
+
   }
 }
