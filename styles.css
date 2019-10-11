@@ -183,7 +183,6 @@ footer .links a{
   text-decoration: none;
 }
   .container{
-    padding-right: 13%;
     padding-left: 13%;
   }
   .logo {
@@ -234,3 +233,11 @@ footer .links a{
     width:150%;
     margin-right: 30px;
   }
+  /* this is remix stuff*/
+  aside{
+    border-left: thick solid #363535;
+    border-top: thick solid #363535;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+  }
+  
