@@ -1,10 +1,10 @@
 @font-face {
   font-family:'Economica';
-  src:url(https://fonts.googleapis.com/css?family=Economica:400,700,700i,400i|Heebo:500,400,300,700,800);
+  src:url(font/economic.css);
 }
 * {
   box-sizing: border-box;
-  font-family: Economica , arial;
+  font-family: arial;
 }
 nav {
   display: flex;
@@ -17,14 +17,13 @@ body{
 }
 header{
   background-image: url(https://images.squarespace-cdn.com/content/v1/5c8a7612a56827db3c92a75b/1554486845511-4EVK14CWOJJ67V549THA/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/BW-07154.jpg?format=2500w);
-background-repeat: no-repeat;
-background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
 .button a{
   color: black;
