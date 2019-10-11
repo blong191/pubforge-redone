@@ -6,7 +6,10 @@
   box-sizing: border-box;
   font-family: arial;
 }
-nav {
+p{
+  font-size: 1.40em;
+}
+.topbar{
   display: flex;
   justify-content: space-between;
   background: #363535;
@@ -153,7 +156,7 @@ footer .button{
   text-decoration: none;
   letter-spacing: .25em;
 }
-footer .media a img{
+ .media a img{
   height: 20px;
   filter: invert(100%);
   margin-top:30px;
@@ -179,8 +182,6 @@ footer .links a{
   color: grey;
   text-decoration: none;
 }
-
-@media all and (min-width: 690px) {
   .container{
     padding-right: 13%;
     padding-left: 13%;
@@ -198,13 +199,13 @@ footer .links a{
   nav ul {
     display: flex;
   }
-  li {
+  li{
     list-style-type: none;
     margin-left: 40px;
   }
-ul:last-child{
+  ul:last-child{
   margin-right:40px;
-}
+  }
   header{
     height: 600px;
   }
@@ -226,4 +227,12 @@ ul:last-child{
   form h2{
     font-size: 70px;
   }
-}
+  aside{
+
+  }
+  .main{
+    width:150%;
+  }
+  .container{
+    width:100%
+  }
